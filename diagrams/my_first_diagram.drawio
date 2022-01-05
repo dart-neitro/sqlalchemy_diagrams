@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T12:25:40.785Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="5y_dlORgYmUAN6nd4gHN" version="15.5.9" type="github">
-  <diagram id="NPu6f1-hnPz6K-y14Unv" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2022-01-05T13:07:56.257Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="eMl0pn0llikFDRVGiWnA" version="15.5.9" type="github" pages="2">
+  <diagram id="NPu6f1-hnPz6K-y14Unv" name="initial_revision">
     <mxGraphModel dx="447" dy="212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7gtEhEpOznMv9OEopn4y-2" value="schema.py" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;resizable=1;recursiveResize=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="490" width="1010" height="1091" as="geometry" />
+          <mxGeometry x="70" y="110" width="1010" height="1091" as="geometry" />
         </mxCell>
         <mxCell id="7gtEhEpOznMv9OEopn4y-3" value="SchemaItem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="7gtEhEpOznMv9OEopn4y-2">
           <mxGeometry x="34" y="50" width="272" height="138" as="geometry" />
@@ -160,6 +160,98 @@
             <mxPoint x="473.75" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="7gtEhEpOznMv9OEopn4y-107" value="utils.py" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1208" y="110" width="860" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="7gtEhEpOznMv9OEopn4y-108" value="OrderedProperties" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="140" width="270" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="7gtEhEpOznMv9OEopn4y-110" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="7gtEhEpOznMv9OEopn4y-108">
+          <mxGeometry y="26" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="7gtEhEpOznMv9OEopn4y-111" value="+ __init__(self): NoneType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7gtEhEpOznMv9OEopn4y-108">
+          <mxGeometry y="34" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7gtEhEpOznMv9OEopn4y-112" value="+ keys(self): list" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7gtEhEpOznMv9OEopn4y-108">
+          <mxGeometry y="60" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7gtEhEpOznMv9OEopn4y-113" value="+ __iter__(self): Iterable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7gtEhEpOznMv9OEopn4y-108">
+          <mxGeometry y="86" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-1" value="+ __setitem__(self, key, object): NoneType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7gtEhEpOznMv9OEopn4y-108">
+          <mxGeometry y="112" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-2" value="+ __getitem__(self, key): NoneType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7gtEhEpOznMv9OEopn4y-108">
+          <mxGeometry y="138" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-3" value="+ __getattr__(self, key, object): NoneType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7gtEhEpOznMv9OEopn4y-108">
+          <mxGeometry y="164" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-4" value="OrderedDict(dict)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="363" width="270" height="346" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-4">
+          <mxGeometry y="26" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-7" value="+ __init__(self, values=None): NoneType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-4">
+          <mxGeometry y="34" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-8" value="+ keys(self): list" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-4">
+          <mxGeometry y="60" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-9" value="+ update(self, dict): NoneType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-4">
+          <mxGeometry y="86" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-10" value="+ setdefault(self, key, value): Any" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-4">
+          <mxGeometry y="112" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-11" value="+ values(self): map | list (py2) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-4">
+          <mxGeometry y="138" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-12" value="+ __iter__(self): Iterable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-4">
+          <mxGeometry y="164" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-15" value="+ itervalues(self): Iterable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-4">
+          <mxGeometry y="190" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-13" value="+ iterkeys(self): Iterable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-4">
+          <mxGeometry y="216" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-18" value="+ iteritems(self): Iterable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-4">
+          <mxGeometry y="242" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-14" value="+ __setitem__(self, key, object): NoneType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-4">
+          <mxGeometry y="268" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-16" value="+ __getitem__(self, key): Any" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-4">
+          <mxGeometry y="294" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-17" value="+ __iter__(self): Iterable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-4">
+          <mxGeometry y="320" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-19" value="ThreadLocal" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="730" width="270" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-19">
+          <mxGeometry y="26" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-24" value="+ __init__(self): NoneType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-19">
+          <mxGeometry y="34" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-22" value="+ __getattribute__(self, key): Any " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-19">
+          <mxGeometry y="60" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FG2JcnnkycLStItWfxeJ-23" value="+ __setattr__(self, key, object): NoneType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FG2JcnnkycLStItWfxeJ-19">
+          <mxGeometry y="86" width="270" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_YUCq5r3BdB4yKuRJoca" name="origin/rel_0_1">
+    <mxGraphModel dx="782" dy="371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="vpa0kILl3NINFMkjxwOF-0" />
+        <mxCell id="vpa0kILl3NINFMkjxwOF-1" parent="vpa0kILl3NINFMkjxwOF-0" />
       </root>
     </mxGraphModel>
   </diagram>
